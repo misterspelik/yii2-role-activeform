@@ -47,8 +47,6 @@ class RoleActiveForm extends ActiveForm
             $options= array_merge($options, $this->inputOptions);
         }
 
-        //$object= parent::field($model, $attribute, $options);
-        //var_dump($this->readonly, $object); die;
         return $field;
     }
 
